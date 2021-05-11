@@ -19,3 +19,10 @@ ex) 합쳐질 branch명이 my_branch경우 git merge my_branch
 원격 repository
 원격 리포지토리 목록
 git remote 
+
+기존 로컬 디렉토리에 원격 저장소 추가
+git remote add origin <repo_url>
+
+내 저장소의 master 브랜치를 origin의 master 브랜치로 push 해라
+git push -u origin master
+-u : 디폴트 값으로 push
