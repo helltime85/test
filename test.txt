@@ -15,3 +15,7 @@ git merge
 ex) 기준 branch가 master경우 git branch master 로 이동
 2. git merge 합쳐질 branch명
 ex) 합쳐질 branch명이 my_branch경우 git merge my_branch
+
+원격 repository
+원격 리포지토리 목록
+git remote 
