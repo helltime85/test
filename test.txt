@@ -37,3 +37,6 @@ git fetch (origin master)
 <url>에 있는 원격 저장소 내용을 현재 디렉토리에 복사해 오기
 * origin 자동 생성
 git clone <url>
+
+원격저장소 삭제
+git remote rm <단축이름>
