@@ -26,3 +26,10 @@ git remote add origin <repo_url>
 내 저장소의 master 브랜치를 origin의 master 브랜치로 push 해라
 git push -u origin master
 -u : 디폴트 값으로 push
+
+origin을 내 repository의 master 브랜치로 갖고와라(merge)
+git pull (origin master)
+
+동기화 시키지는 말고(merge하지는 말고)
+origin을 내 repository의 master 브랜치로 일단 갖고와라
+git fetch (origin master)
