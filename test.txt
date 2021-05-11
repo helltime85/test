@@ -3,3 +3,9 @@ est
 test
 
 aasdf
+
+git branch <new_branch_name> --신규 branch 생성
+
+git branch --branch 목록 보기
+
+git checkout <branch_name> --작업할 branch로 이동
