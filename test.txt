@@ -44,3 +44,31 @@ git clone <url>
 
 원격저장소 삭제
 git remote rm <단축이름>
+
+나혼자쓰는 github
+맘대로
+
+여럿이 같이 쓰는 github
+
+git branch -M main //현재 branch 명을 main으로 변경?
+
+1. 내 로컬 저장소는 변했는데 원격 저장소는 변함 없는 경우
+- push origin master
+2. 내 로컬 저장소는 변함 없는데 원격 저장소는 변한 경우
+- git pull origin master 로 동기화 후 push
+3. 내 로컬 저장소도 변했는데 원격 저장소도 변한 경우
+- rebase
+- pull request ( -> merge)
+  1. 해당 프로젝트 fork 해오기
+  2. fork 해온 프로젝트 clone
+  3. 로컬에서 새 branch 생성
+  4. 새 branch에서 소스 작업
+  5. 커밋
+     git push origin <new_branch>
+  6. 승인, merge
+  7. pull request 날린 branch 삭제
+
+git checkout -b newBranch << newBranch로 branch 생성되고 checkout해서 이동
+
+
+
